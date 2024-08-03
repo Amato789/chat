@@ -6,4 +6,5 @@ def create_app():
         title='Kafka Chat',
         docs_url='/api/docs',
         description='FastAPI + Kafka + Websockets + DDD example',
+        debug=True,
     )

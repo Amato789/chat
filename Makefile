@@ -16,3 +16,7 @@ app-down:
 .PHONY: app-logs
 app-logs:
 	${LOGS} ${APP_CONTAINER} -f
+
+.PHONY: app-shell
+app-shell:
+	${EXEC} ${APP_CONTAINER} bash

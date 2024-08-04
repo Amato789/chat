@@ -17,5 +17,5 @@ class BaseValueObject(ABC, Generic[VT]):
         pass
 
     @abstractmethod
-    def as_generic_type(self):
+    def as_generic_type(self) -> VT:
         pass

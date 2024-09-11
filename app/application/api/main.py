@@ -8,3 +8,6 @@ def create_app():
         description='FastAPI + Kafka + Websockets + DDD example',
         debug=True,
     )
+
+
+# TODO
